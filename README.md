@@ -16,15 +16,15 @@ Esta aplicação consiste em realizar o cadastro do cidadão, que ao ser cadastr
 Além do PHP instalado localmente, é necessário também a instalação de um servidor web, como o <a href="https://www.apache.org/" target="_blank">Apache</a> por exemplo. Também é necessário informar os dados para conexão com o banco de dados através do arquivo .env, informando as seguintes variáveis:
 
 <ul>
-    <li>dbhost: o endereço do host;</li>
-    <li>dbname: o nome do database;</li>
-    <li>username: nome do usuário para acesso ao banco;</li>
-    <li>password: e a senha para acesso.</li>
+    <li><b>dbhost</b>: o endereço do host;</li>
+    <li><b>dbname</b>: o nome do database;</li>
+    <li><b>username</b>: nome do usuário para acesso ao banco;</li>
+    <li><b>password</b>: e a senha para acesso.</li>
 </ul>
 
-Também é necessário executar o arquivo [install](install.sql) no banco de dados da aplicação para a criação da tabela.
+Ainda no banco de dados, é necessário executar o arquivo [install](install.sql) no banco de dados da aplicação para a criação da tabela.
 
-Para executar a aplicação basta executar o arquivo [index](index.php) da aplicação. Ou seja, para executar o teste basta acessar este arquivo no navegador, como no exemplo abaixo:
+Para executar a aplicação basta acessar o arquivo [index](index.php). Ou seja, para executar o teste basta acessar este arquivo no navegador, como no exemplo abaixo:
 
 <pre>
 http://localhost/gesuas/index.php
