@@ -1,5 +1,4 @@
-# Gesuas
-Processo Seletivo - Desenvolvedor Web
+# Cadastro Social
 
 ### Descrição
 O NIS (Número de Identificação Social) é um identificador único atribuído pela Caixa Econômica Federal aos cidadãos. Composto por 11 dígitos, é utilizado para realizar o pagamento de benefícios sociais, assim como chave de identificação nas Políticas Públicas, emissão de documentos, dentre outras utilidades. 
@@ -27,13 +26,13 @@ Ainda no banco de dados, é necessário executar o arquivo [install](install.sql
 Para executar a aplicação basta acessar o arquivo [index](index.php). Ou seja, para executar o teste basta acessar este arquivo no navegador, como no exemplo abaixo:
 
 <pre>
-http://localhost/gesuas/index.php
+http://localhost/<pasta_projeto>/index.php
 </pre>
 
 ou simplesmente
 
 <pre>
-http://localhost/gesuas
+http://localhost/<pasta_projeto>
 </pre>
 
-No link acima, entende-se que foi criado uma pasta chamada gesuas dentro do ambiente de desenvolvimento.
+Nos links acima, altere a string <pasta_projeto> pelo nome da pasta onde o projeto foi salvo dentro do seu ambiente de desenvolvimento.
