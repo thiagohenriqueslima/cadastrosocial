@@ -26,13 +26,13 @@ Ainda no banco de dados, é necessário executar o arquivo [install](install.sql
 Para executar a aplicação basta acessar o arquivo [index](index.php). Ou seja, para executar o teste basta acessar este arquivo no navegador, como no exemplo abaixo:
 
 <pre>
-http://localhost/<pasta_projeto>/index.php
+http://localhost/pasta_projeto/index.php
 </pre>
 
 ou simplesmente
 
 <pre>
-http://localhost/<pasta_projeto>
+http://localhost/pasta_projeto
 </pre>
 
-Nos links acima, altere a string <pasta_projeto> pelo nome da pasta onde o projeto foi salvo dentro do seu ambiente de desenvolvimento.
+Nos links acima, altere a string <i>pasta_projeto</i> pelo nome da pasta onde o projeto foi salvo dentro do seu ambiente de desenvolvimento.
